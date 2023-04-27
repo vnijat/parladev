@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 type INavbarProps = {
   logo: ReactNode;
-  children: ReactNode;
+  children?: ReactNode;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
@@ -17,7 +17,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
 
     <nav>
       <ul className="navbar flex items-center font-medium text-xl text-gray-800">
-        {props.children}
+        {props?.children}
       </ul>
     </nav>
 

@@ -8,7 +8,7 @@ const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
-        <ul>About</ul>
+        {/* <ul>About</ul> */}
       </NavbarTwoColumns>
     </Section>
 
@@ -17,7 +17,7 @@ const Hero = () => (
         title={
           <>
             {'ParlaDev '}
-            <span className="text-primary-500">
+            <span className="text-gray-600">
               Your Partner in Mobile and Software Development
             </span>
           </>
