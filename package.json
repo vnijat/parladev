@@ -1,6 +1,11 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "Parla dev",
   "version": "1.0.0",
+  "author": {
+    "name": "Nijat Valiyev",
+    "company": "Parla Dev",
+    "url": "https://parladev.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
